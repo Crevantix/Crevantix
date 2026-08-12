@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<defs>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fff1a8"/><stop offset=".45" stop-color="#e9b83f"/><stop offset="1" stop-color="#8d5c08"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#17130c"/><stop offset="1" stop-color="#050505"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="900" height="520" fill="#080808"/>
+<rect x="16" y="16" width="868" height="488" rx="26" fill="url(#panel)" stroke="#7d5b1a"/>
+
+<rect x="320" y="60" width="260" height="400" rx="44" fill="#111" stroke="#d8c58e" stroke-width="5" transform="rotate(6 450 260)"/>
+<rect x="355" y="108" width="190" height="250" rx="22" fill="#080808"/>
+<path d="M390 235 C410 180 430 290 450 235 S490 180 510 235" fill="none" stroke="#d4aa3d" stroke-width="8"/>
+<path d="M385 265 C410 210 435 320 460 265 S500 210 525 265" fill="none" stroke="#7f5f20" stroke-width="5"/>
+<text x="450" y="330" fill="#aaa" text-anchor="middle" font-family="Arial" font-size="18" letter-spacing="4">VOICE</text>
+
+</svg>
